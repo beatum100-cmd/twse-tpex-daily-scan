@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # 16:10 Asia/Taipei = 08:10 UTC
-    - cron: "10 8 * * 1-5"
+    - cron: "10 9 * * 1-5"
 
 jobs:
   scan:
